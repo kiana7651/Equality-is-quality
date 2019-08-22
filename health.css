@@ -1,0 +1,59 @@
+body {
+  background-color:#8BAAAD;
+  }
+
+p {
+  color: #000000;
+ }
+
+ title {
+   color: #000000;
+ }
+
+ #mySidenav {
+   color:  #000000;
+ }
+
+#crimeinfo {
+  color: #000000;
+
+}
+  #tchart {
+  width: 50%;
+  height: 50%;
+}
+
+#def {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 25px;
+}
+
+#facts {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 25px;
+}
+
+#solutions {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 25px;
+}
+
+#lifegraph {
+  visibility: visible;
+}
+
+/*side by side posters*/
+.column {
+  float: left;
+  width: 32.5%;
+  padding: 5px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.healthImg{
+  width: 50%;
+}

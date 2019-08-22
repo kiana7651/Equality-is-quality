@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<!--MAKE A POP UP BOX BEFORE THEY LEAVE SITE-->
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="health.css">
+    <meta charset="utf-8">
+    <script type="text/javascript" src = "serve.js"></script>
+    <title>Equality Is Quality</title>
+  </head>
+  <body>
+    <!-- <form action = "index.php" name="survey" method="POST"> -->
+        <!-- <form action="/action_page.php"> -->
+    <!-- </form> -->
+<p>Please take our survey before you leave!</p>
+    <ol>
+     <li><p>
+       Did you know about the social injustice surrounding criminal law before
+       seeing the website?
+     </p></li>
+
+      <input type="radio" name="social-injustice1" value="yes1">Yes<br>
+      <input type="radio" name="social-injustice1" value="no1">No<br>
+
+      <li><p>
+       Did you know about the social injustice surrounding healthcare before this?</p></li>
+      <input type="radio" name="social-injustice3" value="yes2">Yes<br>
+      <input type="radio" name="social-injustice4" value="no2">No</p></li>
+
+      <li><p>
+        Did you know about the social injustice surrounding race before this?</p>
+      <input type="radio" name="social-injustice5" value="yes3">Yes<br>
+      <input type="radio" name="social-injustice6" value="no3">No</li>
+
+<!-- "text" will type in answers, "radio" wil show buttons -->
+      <li><p>
+        Have you been treated unjustly based on your race?</p>
+      <input type="radio" name="social-injustice7" value="yes4">Yes<br>
+      <input type="radio" name="social-injustice8" value="no4">No</li>
+      <div id= "box"><h3>If yes, how did you feel? <input type="text" name = "social-injustice"></h3></div><br>
+
+
+      <li><p>
+        Have you witnessed any form of injustice in your family, school or society?</p>
+      <input type="radio" name="social-injustice9" value="yes5">Yes<br>
+      <input type="radio" name="social-injustice10" value="no5">No</li>
+      <div id= "box"><h3>If yes, what form of injustice?</h3></div>
+      <input type="text" name="social-injustice11">
+      <div id= "box"><h3>How did that affect your life socially (friends, family, etc)?</h3><div>
+      <input type="text" name="social-injustice12"><br>
+
+      <li><p>
+        <div id= "box">How do you intend to help bring social injustice to an end?</p></div>
+        <input type="text" name="social-injustice13"><br>
+      <li><p>
+      <div id= "box">What part(s) of the website were shocking or interesting to read?</p></div>
+        <input type="text" name="social-injustice14"><br>
+      <li><p>
+      <div id= "box">What can we improve on the website?</p></div>
+        <input type="text" name="social-injustice15"><br>
+      <li><p>
+  <div id= "box">Would you recommend this website to others?</p></div>
+      <input type="radio" name="social-injustice16" value="yes9">Yes<br>
+      <input type="radio" name="social-injustice17" value="no9">No</li> <br>
+
+
+      <!-- Any comments? <br>
+        <textarea rows="5" cols="30"/> -->
+        <!-- <button type="submit" id="submit"
+      onclick = "tabulateAnswers()">Submit Survey </button> -->
+
+  <!-- <input type="submit" onclick="tabAnswers()" value="Submit"> -->
+  <input type="submit" onclick="tabulateAnswers()" value="Submit">
+
+
+  <div id="answer"> Answers</div>
+
+    </ol>
+      </form>
+
+  </body>
+</html>
